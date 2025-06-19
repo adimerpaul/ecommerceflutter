@@ -25,17 +25,23 @@ flutter:
 #---------------[Assets]---------------------------------------------------
   assets:
     - assets/images/
-    - assets/icons/
-    - assets/fonts/
+    - assets/logo/
 #---------------[Fonts]---------------------------------------------------
   fonts:
-    - family: OpenSans
+    - family: 'Nunito'
       fonts:
-        - asset: assets/fonts/OpenSans-Regular.ttf
-        - asset: assets/fonts/OpenSans-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/OpenSans-Italic.ttf
+        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito/Nunito-Italic.ttf
           style: italic
-        - asset: assets/fonts/OpenSans-BoldItalic.ttf
-          weight: 700
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito/Nunito-MediumItalic.ttf
+          weight: 500
           style: italic
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 800
