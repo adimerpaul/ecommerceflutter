@@ -10,7 +10,14 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: UAppTheme.lightTheme,
       darkTheme: UAppTheme.darkTheme,
-      home: Scaffold(),
+      home: Scaffold(
+        body: Center(
+          child: Text(
+            'Hello, World!',
+            style: Theme.of(context).textTheme.headlineMedium,
+          ),
+        ),
+      ),
     );
   }
 }

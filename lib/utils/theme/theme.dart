@@ -5,7 +5,7 @@ import 'package:ecommerce/utils/theme/widgets_theme/checkbox_theme.dart';
 import 'package:ecommerce/utils/theme/widgets_theme/chip_theme.dart';
 import 'package:ecommerce/utils/theme/widgets_theme/elevated_button_theme.dart';
 import 'package:ecommerce/utils/theme/widgets_theme/outlined_button_theme.dart';
-import 'package:ecommerce/utils/theme/widgets_theme/text_Theme.dart';
+import 'package:ecommerce/utils/theme/widgets_theme/text_theme.dart';
 import 'package:ecommerce/utils/theme/widgets_theme/text_field_theme.dart';
 import 'package:flutter/material.dart';
 

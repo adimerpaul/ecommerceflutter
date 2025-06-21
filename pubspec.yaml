@@ -13,6 +13,8 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.6
+  lottie: ^3.3.1
+  smooth_page_indicator: ^1.2.1
 #----[Packages]---------------------------------------------------
 dev_dependencies:
   flutter_test:
@@ -31,18 +33,18 @@ flutter:
   fonts:
     - family: 'Nunito'
       fonts:
-        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+        - asset: assets/fonts/Nunito-Light.ttf
           weight: 300
-        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Nunito/Nunito-Italic.ttf
+        - asset: assets/fonts/Nunito-Italic.ttf
           style: italic
-        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+        - asset: assets/fonts/Nunito-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Nunito/Nunito-MediumItalic.ttf
+        - asset: assets/fonts/Nunito-MediumItalic.ttf
           weight: 500
           style: italic
-        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+        - asset: assets/fonts/Nunito-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
           weight: 800
